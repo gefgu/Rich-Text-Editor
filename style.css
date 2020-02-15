@@ -20,3 +20,7 @@ textarea {
   overflow: auto;
   box-shadow: none;
 }
+
+.lead {
+  font-size: 0.9em;
+}
