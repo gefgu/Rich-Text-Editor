@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Rich Text Editor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box jumbotron">
+        <div class="box-top">
+          <div class="buttons-box">
+            <button type="button" id="title" class="btn btn-sm"><b>T</b></button>
+            <button type="button" id="bold" class="btn btn-sm"><b>B</b></button>
+            <button type="button" id="italic" class="btn btn-sm"><b><i>I</i></b></button>
+            <button type="button" id="code" class="btn btn-sm"><b><code style="color: black;"><></code></b></button>
+            <button type="button" id="list" class="btn btn-sm"><img src="imgs/list.svg" class="svg-img"/></button>
+            <button type="button" id="underline" class="btn btn-sm"><b><u>U</u></b></button>
+            <button type="button" id="quote" class="btn btn-sm"><b>" "</b></button>
+            <button type="button" id="link" class="btn btn-sm"><b>Link</b></button>
+            <hr>
+          </div>
+        </div>
+        <div class="editable-area">
+          <p>Title</p>
+          <p>Bold</p>
+          <p>Italic</p>
+          <p>< coding 1 + 1 ></p>
+          <p>List</p>
+          <p>Underlined</p>
+          <p>Quotes</p>
+          <p>Link</p>
+        </div>
+    </div>
+    </div>
+  </body>
+  <script src="functions.js" charset="utf-8"></script>
+</html>
